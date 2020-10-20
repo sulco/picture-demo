@@ -2,7 +2,11 @@
 
 
 <picture>
-  <source srcset="https://raw.githubusercontent.com/sulco/picture-demo/master/images/photo.avif" type="image/avif">
-  <source srcset="https://raw.githubusercontent.com/sulco/picture-demo/master/images/photo.webp" type="image/webp"> 
-  <img src="https://raw.githubusercontent.com/sulco/picture-demo/master/images/photo.jpg" alt="Red Panda">
+  <source type="image/avif"
+    srcset="https://picture-demo.netlify.app/photo.avif">
+  <source type="image/webp"
+    srcset="https://picture-demo.netlify.app/photo.webp">
+  <!-- Fallback: -->
+  <img src="https://picture-demo.netlify.app/photo.jpg"
+      alt="Red Panda">
 </picture>
